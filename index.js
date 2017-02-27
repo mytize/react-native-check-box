@@ -87,7 +87,7 @@ export default class CheckBox extends Component {
         })
     }
 
-    render() { console.log(this.props)
+    render() {
         return (
             <TouchableHighlight
                 style={this.props.style}
